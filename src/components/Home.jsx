@@ -16,7 +16,7 @@ export default function Home() {
                         <span className="md:block">penny</span>
                         <span className="md:block">doodle</span>
                     </h1>
-                    <hr className="my-4 mx-auto w-2/3 border-pink-600/40" />
+                    <hr className="my-4 md:mt-4 md:mb-10 mx-auto w-2/3 border-pink-600/40" />
                     <div className="tracking-wider font-light text-xl">
                         <h4 className="p-2">about</h4>
                         <h4 className="p-2">contact</h4>
@@ -25,7 +25,7 @@ export default function Home() {
 
                 {/* Right side */}
                 <div className="md:w-1/2">
-                    <div className="flex flex-col divide-y-2 md:grid md:grid-rows-4 md:grid-cols-1 md:h-screen divide-pink-600/40">
+                    <div className="flex flex-col divide-y-2 md:justify-evenly md:min-h-screen divide-pink-600/40">
                         <Feature
                             url={portraits}
                             gridPosition="md:row-start-1"
