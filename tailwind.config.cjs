@@ -21,7 +21,7 @@ module.exports = {
       },
 
       textShadow: {
-        DEFAULT: '0 2px 6px var(--tw-shadow-color)',
+        DEFAULT: '0 2px 5px var(--tw-shadow-color)',
       },
     },
   },
