@@ -18,8 +18,8 @@ export default function Home() {
                     </h1>
                     <hr className="my-4 md:mt-4 md:mb-10 mx-auto w-2/3 border-pink-600/40" />
                     <div className="tracking-wider font-light text-lg md:text-[2vw]">
-                        <h4 className="p-2">about</h4>
-                        <h4 className="p-2">contact</h4>
+                        <h4 className="p-2 md:p-6">about</h4>
+                        <h4 className="p-2 md:p-6">contact</h4>
                     </div>
                 </header>
 
