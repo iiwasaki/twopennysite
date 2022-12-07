@@ -11,13 +11,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row min-h-screen">
                 {/* Left side */}
                 <header className="font-title md:w-1/2 text-center p-4">
-                    <h1 className="text-[8vw] m-3 tracking-widest font-extralight">
+                    <h1 className="text-[7vw] m-3 tracking-widest font-extralight">
                         <span className="md:block">two</span>
                         <span className="md:block">penny</span>
                         <span className="md:block">doodle</span>
                     </h1>
                     <hr className="my-4 md:mt-4 md:mb-10 mx-auto w-2/3 border-pink-600/40" />
-                    <div className="tracking-wider font-light text-xl">
+                    <div className="tracking-wider font-light text-lg md:text-[2vw]">
                         <h4 className="p-2">about</h4>
                         <h4 className="p-2">contact</h4>
                     </div>
