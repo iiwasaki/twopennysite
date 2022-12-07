@@ -11,17 +11,23 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': [
-          'Karla',
+          '"Open Sans"',
           ...defaultTheme.fontFamily.sans,
         ],
         'title':[
           '"Work Sans"',
           'serif',
         ],
+        'feature':[
+          '"Kumbh Sans"',
+          'Gadget',
+          'sans',
+        ],
       },
 
       textShadow: {
-        DEFAULT: '0 2px 5px var(--tw-shadow-color)',
+        noblur: '2px 2px 0 var(--tw-shadow-color)',
+        DEFAULT: '0 1px 4px var(--tw-shadow-color)',
       },
     },
   },

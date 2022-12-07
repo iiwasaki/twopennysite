@@ -7,7 +7,7 @@ import misc from "../assets/front/misc.png"
 
 export default function Home() {
     return (
-        <div className="bg-orange-300/90">
+        <div className="bg-indigo-400/60">
             <div className="flex flex-col md:flex-row min-h-screen">
                 {/* Left side */}
                 <header className="font-title md:w-1/2 text-center p-4">
@@ -16,44 +16,47 @@ export default function Home() {
                         <span className="md:block">penny</span>
                         <span className="md:block">doodle</span>
                     </h1>
-                    <hr className="my-4 mx-auto w-2/3 border-cyan-800" />
-                    <div className="">
-                        <h4 className="p-2"> About </h4>
-                        <h4 className="p-2"> Contact </h4>
+                    <hr className="my-4 mx-auto w-2/3 border-pink-600/40" />
+                    <div className="tracking-wider font-light text-xl">
+                        <h4 className="p-2">about</h4>
+                        <h4 className="p-2">contact</h4>
                     </div>
                 </header>
 
                 {/* Right side */}
                 <div className="md:w-1/2">
-                    <div className="flex flex-col divide-y-4 divide-orange-400/80">
+                    <div className="flex flex-col divide-y-2 md:grid md:grid-rows-4 md:grid-cols-1 md:h-screen divide-pink-600/40">
                         <Feature
                             url={portraits}
+                            gridPosition="md:row-start-1"
                             alt="Drawing of the Portraits of the Rim logo: a woman with red hair and a wide brim hat holding a spray can."
-                            heading="Portraits of the Rim"
+                            heading="PORTRAITS OF THE RIM"
                             subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
                         />
                         <Feature
                             url={characters}
+                            gridPosition="md:row-start-2"
                             alt="Drawing of a girl in a dress standing in front of an Eldritch horror."
-                            heading="Characters"
+                            heading="CHARACTERS"
                             subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
                         />
                         <Feature
                             url={ghosted}
+                            gridPosition="md:row-start-3"
                             alt="Drawing of an empty attic. "
-                            heading="Ghosted"
+                            heading="GHOSTED"
                             subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
                         />
                         <Feature
                             url={misc}
+                            gridPosition="md:row-start-4"
                             alt="Drawing of several small logos for a farm."
-                            heading="Misc."
+                            heading="MISC"
                             subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
                         />
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
