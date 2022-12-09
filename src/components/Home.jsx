@@ -18,7 +18,7 @@ export default function Home() {
                     </h1>
                     <hr className="my-4 md:mt-4 md:mb-10 mx-auto w-2/3 border-pink-600/40" />
                     <div className="tracking-wider font-light text-lg md:text-[2vw]">
-                        <h4 className="p-2 md:p-6">about</h4>
+                        <h4 className="p-2 md:p-6"><Link to="/about">about</Link></h4>
                         <h4 className="p-2 md:p-6"><Link to="/contact">contact</Link></h4>
                     </div>
                 </header>
@@ -28,6 +28,7 @@ export default function Home() {
                     <div className="flex flex-col divide-y-2 md:justify-evenly md:min-h-screen divide-pink-600/40">
                         <Feature
                             url={portraits}
+                            link="/portraits"
                             gridPosition="md:row-start-1"
                             alt="Drawing of the Portraits of the Rim logo: a woman with red hair and a wide brim hat holding a spray can."
                             heading="PORTRAITS OF THE RIM"
@@ -35,6 +36,7 @@ export default function Home() {
                         />
                         <Feature
                             url={characters}
+                            link="/characters"
                             gridPosition="md:row-start-2"
                             alt="Drawing of a girl in a dress standing in front of an Eldritch horror."
                             heading="CHARACTERS"
@@ -42,6 +44,7 @@ export default function Home() {
                         />
                         <Feature
                             url={ghosted}
+                            link="/ghosted"
                             gridPosition="md:row-start-3"
                             alt="Drawing of an empty attic. "
                             heading="GHOSTED"
@@ -49,6 +52,7 @@ export default function Home() {
                         />
                         <Feature
                             url={misc}
+                            link="/misc"
                             gridPosition="md:row-start-4"
                             alt="Drawing of several small logos for a farm."
                             heading="MISC"
