@@ -1,9 +1,9 @@
 import Feature from "./Feature"
 import { Link } from "react-router-dom"
-import portraits from "../assets/front/portraits.png"
-import characters from "../assets/front/characters.png"
-import ghosted from "../assets/front/ghosted.png"
-import misc from "../assets/front/misc.png"
+import portraits from "../assets/front/portraits.jpg"
+import characters from "../assets/front/characters.jpg"
+import ghosted from "../assets/front/ghosted.jpg"
+import misc from "../assets/front/misc.jpg"
 
 export default function Home() {
     return (
