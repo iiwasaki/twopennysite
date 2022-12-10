@@ -7,7 +7,7 @@ import misc from "../assets/front/misc.jpg"
 
 export default function Home() {
     return (
-        <div className="bg-indigo-400/60">
+        <div>
             <div className="flex flex-col md:flex-row min-h-screen">
                 {/* Left side */}
                 <header className="font-title md:w-1/2 text-center p-4">
