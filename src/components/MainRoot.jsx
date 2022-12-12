@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 export default function MainRoot() {
     return (
-        <div>
+        <div className="md:max-w-screen-2xl md:mx-auto">
             <Navbar/>
             <Outlet />
         </div>
