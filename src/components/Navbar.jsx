@@ -22,7 +22,7 @@ export default function Navbar() {
                 leaveTo="transform scale-95 opacity-0"
             >
                 <Popover.Panel
-                    className="bg-slate-800 text-white w-screen shadow-lg text-center"
+                    className="bg-slate-800 text-white w-screen shadow-lg text-center z-20"
                     ref={setPopMenu}
                     style={styles.popper}
                     {...attributes.popper}
