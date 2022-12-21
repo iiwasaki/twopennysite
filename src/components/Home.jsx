@@ -4,6 +4,7 @@ import portraits from "../assets/front/portraits.jpg"
 import characters from "../assets/front/characters.jpg"
 import ghosted from "../assets/front/ghosted.jpg"
 import misc from "../assets/front/misc.jpg"
+import temp from "../assets/chars/fulls/full1.jpg"
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
                     <div className="tracking-wider font-light text-lg md:text-[2vw]">
                         <h4 className="p-2 md:p-6"><Link to="/about">about</Link></h4>
                         <h4 className="p-2 md:p-6"><Link to="/contact">contact</Link></h4>
+                        <img src={temp} className="hidden"/>
                     </div>
                 </header>
 
