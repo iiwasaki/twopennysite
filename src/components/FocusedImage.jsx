@@ -1,7 +1,9 @@
 import { Dialog, Transition } from "@headlessui/react"
 import { Fragment } from "react"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
-export default function FocusedImage({ isOpen, setIsOpen, srcFull }) {
+
+export default function FocusedImage({ isOpen, setIsOpen, srcFull, srcCaption }) {
     return (
         <Transition
             show={isOpen}
@@ -36,10 +38,16 @@ export default function FocusedImage({ isOpen, setIsOpen, srcFull }) {
                         <Dialog.Panel className="max-h-full max-w-full flex">
                             <Dialog.Title className="sr-only"> Image View </Dialog.Title>
                             <Dialog.Description className="sr-only"> Image Description </Dialog.Description>
-                            <img
-                                src={srcFull}
-                                className="object-contain"
-                            />
+                                <div className="text-center p-1 fixed bg-black/80 bottom-0 left-0 w-full ">
+                                    <p className="text-slate-200 bg-black/80 text-shadow shadow-black text-xl inline-block px-10 py-1"> {srcCaption} </p>
+                                </div>
+                                <LazyLoadImage
+                                    src={srcFull}
+                                    className="object-contain"
+                                />
+                                
+                            
+
                         </Dialog.Panel>
                     </div>
                 </Transition.Child>

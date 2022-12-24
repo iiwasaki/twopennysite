@@ -20,6 +20,7 @@ export default function Home() {
                     <hr className="my-4 md:mt-4 md:mb-10 mx-auto w-2/3 border-pink-600/40" />
                     <div className="tracking-wider font-light text-lg md:text-[2vw]">
                         <h4 className="p-2 md:p-6"><Link to="/about">about</Link></h4>
+                        <h4 className="p-2 md:p-6"><Link to="/commissions">commissions</Link></h4>
                         <h4 className="p-2 md:p-6"><Link to="/contact">contact</Link></h4>
                         <img src={temp} className="hidden"/>
                     </div>

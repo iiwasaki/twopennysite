@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 export default function Feature(props) {
     return (
         <Link to={`${props.link}`} className={`grid bg-black md:transition-all md:duration-700 aspect-square md:aspect-auto md:flex-1 md:hover:grow-[15] ${props.gridPosition} group`}>
-            <img
+            <LazyLoadImage
                 className="w-0 h-0 min-w-full min-h-full object-cover col-start-1 row-start-1 opacity-50 aspect-square contrast-100 md:saturate-50 md:group-hover:saturate-200"
                 src={`${props.url}`}
                 alt={`${props.alt}`}

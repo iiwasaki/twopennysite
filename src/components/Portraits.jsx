@@ -5,9 +5,12 @@ import port from "../assets/potr/rimworld2.png"
 import asset_gen from "../assets/potr/rimworld3.jpg"
 import demo_gif from "../assets/potr/rimworldgif_sm.gif"
 
+import { LazyLoadImage } from "react-lazy-load-image-component"
+
+
 export default function Portraits() {
     return (
-        <div>
+        <>
             <Banner
                 src={portraits}
                 alt="Drawing of the Portraits of the Rim logo: a woman with red hair and a wide brim hat holding a spray can."
@@ -18,7 +21,7 @@ export default function Portraits() {
                     <h2 className="uppercase bg-slate-800 italic text-white text-shadow-noblur shadow-pink-700/50 font-title font-light tracking-wider text-3xl p-4 my-4 rounded-lg">Overview of the Game</h2>
                     <div className="flex flex-col gap-6 md:flex-row 2xl:mx-4">
                         <div className="flex flex-col items-center md:w-1/3">
-                            <img src={pawns}
+                            <LazyLoadImage src={pawns}
                                 className="self-center"
                                 alt="Image of two pawns of a character named Tail in Rimworld"
                             />
@@ -32,7 +35,7 @@ export default function Portraits() {
                     <div className="flex flex-col md:flex-row md:h-min gap-6 2xl:mx-4">
                         <p className="leading-relaxed md:w-2/3"> At its core, Portraits of the Rim is a portrait generator that pulls from the pre-existing character sprites and creates a corresponding, dynamic character portrait. Generation of these portraits is done through a layering system much like a paper doll: a base is generated that includes a head and neck upon which layers and layers of individual assets are placed. With over 30 layers and a hierarchy that allows for complex combinations of hair, scars, genetic alterations, and clothing that look cohesive when placed, Portraits of the Rim is intended to show the breadth of character that the base game provides. </p>
                         <div className="flex flex-col items-center md:w-1/3">
-                            <img
+                            <LazyLoadImage
                                 src={port}
                                 alt="Drawn portrait of a character named Tail in Rimworld"
                                 className="self-center"
@@ -46,7 +49,8 @@ export default function Portraits() {
                     <h2 className="uppercase bg-slate-800 italic text-white text-shadow-noblur shadow-pink-700/50 font-title font-light tracking-wider text-3xl p-4 my-4 rounded-lg"> ASSET GENERATION </h2>
                     <div className="flex flex-col md:flex-row gap-6 2xl:mx-4">
                         <div className="flex flex-col items-center md:w-1/3">
-                            <img src={asset_gen}
+                            <LazyLoadImage
+                                src={asset_gen}
                                 className="self-center"
                                 alt="A work in progress drawing of a man with horns"
                             />
@@ -60,7 +64,7 @@ export default function Portraits() {
                     <div className="flex flex-col md:flex-row gap-6 2xl:mx-4">
                         <p className="md:w-2/3">Portraits of the Rim is planned to be released in early 2023 with the help of Oskar Potocki, a graphic designer and leader of the Vanilla Expanded series, and Taranchuk, a programmer well-known in the Rimworld modding community for his work. Oskar has provided coordination with Taranchuk, continual feedback, advice, as well as very appreciated words of encouragement. Taranchuk programmed the framework for the mod within Rimworld. By time of release, Portraits of the Rim will have well over 1000 unique assets pulling from Rimworld itself and the Vanilla Expanded mod series.</p>
                         <div className="flex flex-col items-center md:w-1/3">
-                            <img
+                            <LazyLoadImage
                                 src={demo_gif}
                                 alt="A slide show GIF image of various faces that are possible to generate using Portraits of the Rim"
                                 className="self-center max-h-[250px]"
@@ -76,6 +80,6 @@ export default function Portraits() {
                     </div>
                 </section>
             </main>
-        </div>
+        </>
     )
 }

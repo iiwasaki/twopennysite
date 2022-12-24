@@ -28,19 +28,26 @@ export default function Carousel({ images }) {
     const data = images.map((image, index) => {
         return (
             <Transition
+                key={image.id}
                 show={current === index}
-                as="img"
+                as="div"
                 enter="transition-opacity duration-1000"
                 enterFrom="opacity-0"
                 enterTo="opacity-100"
                 leave="transition-opacity duration-[0s]"
                 leaveFrom="opacity-0"
                 leaveTo="opacity-0"
-                src={image.full}
-                alt={image.alt}
-                className="max-h-full"
+                className="h-full relative"
             >
-               
+                <img
+                    src={image.full}
+                    alt={image.alt}
+                    className="max-h-full"
+                />
+                <div className="absolute bottom-4 bg-black/60 text-center w-full p-1">
+                    <p className="text-slate-200 text-shadow shadow-black text-small md:text-xl"> {image.caption} </p>
+                </div>
+                
             </Transition>
         )
     })
@@ -48,14 +55,14 @@ export default function Carousel({ images }) {
 
 
     return (
-        <section className="grid grid-cols-12">
-            <div className="z-20 col-start-1 col-end-2 row-start-1 bg-red-500 flex justify-center items-center" onClick={prev} >
-                <ArrowLeftIcon className="h-10 w-10" />
+        <section className="py-4 grid grid-cols-9 md:grid-cols-12 bg-slate-800 shadow-lg shadow-gray-700 rounded-lg">
+            <div className="z-20 col-start-1 col-end-2 row-start-1 transition-colors duration-500 md:hover:bg-slate-700 flex justify-center items-center group rounded-l-lg" onClick={prev} >
+                <ArrowLeftIcon className="w-1/2 text-slate-200 transition duration-500 md:group-hover:scale-125 md:group-hover:text-slate-200 md:group-hover:bg-inherit" />
             </div>
-            <div className="z-20 col-start-12 col-end-12 row-start-1 bg-green-500 flex justify-center items-center" onClick={next}>
-                <ArrowRightIcon className="h-10 w-10" />
+            <div className="z-20 col-start-9 col-end-9 md:col-start-12 md:col-end-12 row-start-1 transition-colors duration-500 md:hover:bg-slate-700 flex justify-center items-center group rounded-r-lg" onClick={next}>
+                <ArrowRightIcon className="w-1/2 text-slate-200 transition duration-500 md:group-hover:scale-125 md:group-hover:text-slate-200 md:group-hover:bg-inherit" />
             </div>
-            <div className="bg-gray-600 col-span-full row-span-full h-[500px] md:h-[700px] flex items-center justify-center">
+            <div className="col-start-2 col-end-9 md:col-end-12 row-start-1 h-[500px] md:h-[700px] flex items-center justify-center">
                 {data}
             </div>
         </section>

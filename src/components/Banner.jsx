@@ -1,7 +1,10 @@
+import { LazyLoadImage } from "react-lazy-load-image-component"
+
+
 export default function Banner(props) {
     return (
-        <div className="grid  h-[25vh] md:h-[400px] bg-black">
-            <img
+        <div className="grid  h-[25vh] md:h-[300px] bg-black">
+            <LazyLoadImage
                 src={props.src}
                 alt={props.alt}
                 className="w-0 h-0 min-w-full min-h-full object-cover col-start-1 row-start-1 opacity-50 saturate-50"

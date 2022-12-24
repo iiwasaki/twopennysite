@@ -1,4 +1,6 @@
 import about_pic from "../assets/about/temp.jpg"
+import { LazyLoadImage } from "react-lazy-load-image-component"
+
 
 export default function Contact() {
     return (
@@ -6,7 +8,7 @@ export default function Contact() {
             {/* Left section */}
             <div className="md:w-1/2 text-center">
                 <p className="text-title font-extralight tracking-wide my-6 text-5xl md:text-7xl">E... employment OwO?</p>
-                <img
+                <LazyLoadImage
                     src={about_pic}
                     className="max-h-[500px] mx-auto"
                     alt=""

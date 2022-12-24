@@ -29,6 +29,7 @@ export default function Navbar() {
                 >
                     <div className="flex flex-col text-lg font-light tracking-wide p-2">
                         <Popover.Button as={Link} to="/about" className="py-3">about</Popover.Button>
+                        <Popover.Button as={Link} to="/commissions" className="py-3">commissions</Popover.Button>
                         <Popover.Button as={Link} to="/contact" className="py-3">contact</Popover.Button>
                         <Popover.Button as={Link} to="/portraits" className="py-3">portraits of the rim</Popover.Button>
                         <Popover.Button as={Link} to="/characters" className="py-3">characters</Popover.Button>
@@ -39,6 +40,7 @@ export default function Navbar() {
             </Transition>
             <div className="hidden md:flex gap-1 tracking-widest font-light">
                 <Link to="/about" className="bg-slate-800  rounded-sm px-4 py-1 text-white ">about</Link>
+                <Link to="/commissions" className="bg-slate-800 rounded-sm px-4 py-1 text-white">commissions</Link>
                 <Link to="/contact" className="bg-slate-800 px-4 py-1 text-white">contact</Link>
                 <Link to="/portraits" className="bg-slate-800 px-4 py-1 text-white">portraits</Link>
                 <Link to="/characters" className="bg-slate-800 px-4 py-1 text-white">characters</Link>
