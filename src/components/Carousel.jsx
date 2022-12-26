@@ -37,7 +37,7 @@ export default function Carousel({ images }) {
                 leave="transition-opacity duration-[0s]"
                 leaveFrom="opacity-0"
                 leaveTo="opacity-0"
-                className="h-full relative"
+                className="h-full relative flex items-center justify-center"
             >
                 <img
                     src={image.full}
