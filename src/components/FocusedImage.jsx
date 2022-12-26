@@ -1,6 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react"
 import { Fragment } from "react"
 import { LazyLoadImage } from "react-lazy-load-image-component"
+import { XMarkIcon } from "@heroicons/react/24/solid"
 
 
 export default function FocusedImage({ isOpen, setIsOpen, srcFull, srcCaption }) {
@@ -40,6 +41,9 @@ export default function FocusedImage({ isOpen, setIsOpen, srcFull, srcCaption })
                             <Dialog.Description className="sr-only"> Image Description </Dialog.Description>
                                 <div className="text-center p-1 fixed bg-black/80 bottom-0 left-0 w-full ">
                                     <p className="text-slate-200 bg-black/80 text-shadow shadow-black text-xl inline-block px-10 py-1"> {srcCaption} </p>
+                                </div>
+                                <div className="text-center p-1 text-slate-50 fixed shadow shadow-black bg-black/80 rounded-lg" onClick={() => setIsOpen(false)}>
+                                    <XMarkIcon className="h-10 w-10" />
                                 </div>
                                 <LazyLoadImage
                                     src={srcFull}
