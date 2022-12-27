@@ -1,5 +1,4 @@
-import about_pic from "../assets/about/temp.jpg"
-import { LazyLoadImage } from "react-lazy-load-image-component"
+import { Link } from "react-router-dom"
 
 
 export default function About() {
@@ -16,7 +15,7 @@ export default function About() {
             {/* Right section */}
             <div className="md:w-1/2">
                 <p className="leading-relaxed text-lg">
-                    Howdy! I’m TwoPenny, a digital artist in the Pacific Northwest of the United States. While not formally trained, I have worked for almost a decade on various art projects, commissions, and personal projects. Much of my professional work has been in character commissions for Dungeons and Dragons, RWBY, and World of Warcraft, but I have also worked extensively in video game asset design, creation, and animation on my own time. If you have a bigger project (especially for video game art), please feel free to reach out! I’m always excited to talk shop and gauge if my work is a good fit for your vision!
+                    Howdy! I’m TwoPenny, a digital artist in the Pacific Northwest of the United States. While not formally trained, I have worked for almost a decade on various art projects, commissions, and personal projects. Much of my professional work has been in character commissions for Dungeons and Dragons, RWBY, and World of Warcraft, but I have also worked extensively in video game asset design, creation, and animation on my own time. If you have a bigger project (especially for video game art), please feel free to <Link to="/contact" className="font-bold text-indigo-700">reach out</Link>! I’m always excited to talk shop and gauge if my work is a good fit for your vision!
                 </p>
             </div>
         </main>
