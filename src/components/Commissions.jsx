@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Disclosure } from "@headlessui/react"
+import { Disclosure, Transition } from "@headlessui/react"
 import { ChevronRightIcon } from "@heroicons/react/24/solid"
 
 export default function Commissions() {
@@ -27,14 +27,24 @@ export default function Commissions() {
                             <p className="align-middle text-lg">Portraits</p>
                             <ChevronRightIcon className="h-4 ml-auto ui-open:rotate-90 ui-open:transform" />
                         </Disclosure.Button>
-                        <Disclosure.Panel>
-                            <ul className="m-4">
-                                <li>Lineart  (0.5 hr-1 hr) - $25</li>
-                                <li>Flat color (1 hr-1.5 hr) - $40</li>
-                                <li>Cel shaded (1.75 hr-2 hr) - $55</li>
-                                <li>Full render (2 hr-2.75 hr) - $70</li>
-                            </ul>
-                        </Disclosure.Panel>
+                        <Transition
+                            enter="transition duration-300 ease-out"
+                            enterFrom="transform -translate-y-8 opacity-0"
+                            enterTo="transform translate-y-0 opacity-100"
+                            leave="transition duration-200 ease-out"
+                            leaveFrom="transform translate-y-0 opacity-100"
+                            leaveTo="transform -translate-y-4 opacity-0"
+                        >
+                            <Disclosure.Panel>
+                                <ul className="m-4">
+                                    <li>Lineart  (0.5 hr-1 hr) - $25</li>
+                                    <li>Flat color (1 hr-1.5 hr) - $40</li>
+                                    <li>Cel shaded (1.75 hr-2 hr) - $55</li>
+                                    <li>Full render (2 hr-2.75 hr) - $70</li>
+                                </ul>
+                            </Disclosure.Panel>
+                        </Transition>
+
                     </Disclosure>
                     <Disclosure
                         as="div"
@@ -44,14 +54,23 @@ export default function Commissions() {
                             <p className="align-middle text-lg">Bust</p>
                             <ChevronRightIcon className="h-4 ml-auto ui-open:rotate-90 ui-open:transform" />
                         </Disclosure.Button>
-                        <Disclosure.Panel>
-                            <ul className="m-4">
-                                <li>Lineart (2.5 hrs-3 hrs) - $75</li>
-                                <li>Flat Color (3.5 hrs-4 hrs) - $110</li>
-                                <li>Cel Shaded (4 hrs-4.75 hrs) - $125</li>
-                                <li>Full Render (4.75-5.5hrs) - $140</li>
-                            </ul>
-                        </Disclosure.Panel>
+                        <Transition
+                            enter="transition duration-300 ease-out"
+                            enterFrom="transform -translate-y-8 opacity-0"
+                            enterTo="transform translate-y-0 opacity-100"
+                            leave="transition duration-200 ease-out"
+                            leaveFrom="transform translate-y-0 opacity-100"
+                            leaveTo="transform -translate-y-4 opacity-0"
+                        >
+                            <Disclosure.Panel>
+                                <ul className="m-4">
+                                    <li>Lineart (2.5 hrs-3 hrs) - $75</li>
+                                    <li>Flat Color (3.5 hrs-4 hrs) - $110</li>
+                                    <li>Cel Shaded (4 hrs-4.75 hrs) - $125</li>
+                                    <li>Full Render (4.75-5.5hrs) - $140</li>
+                                </ul>
+                            </Disclosure.Panel>
+                        </Transition>
                     </Disclosure>
                     <Disclosure
                         as="div"
@@ -61,14 +80,23 @@ export default function Commissions() {
                             <p className="align-middle text-lg">Full</p>
                             <ChevronRightIcon className="h-4 ml-auto ui-open:rotate-90 ui-open:transform" />
                         </Disclosure.Button>
-                        <Disclosure.Panel>
-                            <ul className="m-4">
-                                <li>Lineart (3.5-4 hrs) - $110</li>
-                                <li>Flat Color (4.5-5 hrs) - $140</li>
-                                <li>Cel Shaded (5.5-6 hrs) - $165</li>
-                                <li>Full Render (7-8 hrs) - $200</li>
-                            </ul>
-                        </Disclosure.Panel>
+                        <Transition
+                            enter="transition duration-300 ease-out"
+                            enterFrom="transform -translate-y-8 opacity-0"
+                            enterTo="transform translate-y-0 opacity-100"
+                            leave="transition duration-200 ease-out"
+                            leaveFrom="transform translate-y-0 opacity-100"
+                            leaveTo="transform -translate-y-4 opacity-0"
+                        >
+                            <Disclosure.Panel>
+                                <ul className="m-4">
+                                    <li>Lineart (3.5-4 hrs) - $110</li>
+                                    <li>Flat Color (4.5-5 hrs) - $140</li>
+                                    <li>Cel Shaded (5.5-6 hrs) - $165</li>
+                                    <li>Full Render (7-8 hrs) - $200</li>
+                                </ul>
+                            </Disclosure.Panel>
+                        </Transition>
                     </Disclosure>
                     <p> Samples of various options can be seen in the <Link to="/characters" className="font-bold text-indigo-700">Characters page</Link>.</p>
                     <p className="my-4">
