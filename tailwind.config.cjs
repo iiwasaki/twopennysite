@@ -32,6 +32,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('@headlessui/tailwindcss'),
     plugin(function ({ matchUtilities, theme }){
       matchUtilities(
         {

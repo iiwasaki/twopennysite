@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 import { XMarkIcon } from "@heroicons/react/24/solid"
 
 
-export default function FocusedImage({ isOpen, setIsOpen, srcFull, srcCaption }) {
+export default function FocusedImage({ isOpen, setIsOpen, srcFull, srcCaption, srcAlt }) {
     return (
         <Transition
             show={isOpen}
@@ -38,7 +38,7 @@ export default function FocusedImage({ isOpen, setIsOpen, srcFull, srcCaption })
                     <div className="fixed inset-0 flex justify-center items-center py-5 px-2">
                         <Dialog.Panel className="max-h-full max-w-full flex">
                             <Dialog.Title className="sr-only"> Image View </Dialog.Title>
-                            <Dialog.Description className="sr-only"> Image Description </Dialog.Description>
+                            <Dialog.Description className="sr-only"> {srcAlt} </Dialog.Description>
                                 <div className="text-center p-1 fixed bg-black/80 bottom-0 left-0 w-full ">
                                     <p className="text-slate-200 bg-black/80 text-shadow shadow-black text-xl inline-block px-10 py-1"> {srcCaption} </p>
                                 </div>

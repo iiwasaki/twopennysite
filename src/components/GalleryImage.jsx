@@ -10,7 +10,7 @@ export default function GalleryImage( props ) {
         <div className="flex-auto hover:shadow-md flex py-2 hover:scale-110 transition duration-300 ease-in-out">
             <LazyLoadImage
                 src={props.thumb}
-                alt="Alt text temp"
+                alt={props.alt}
                 className="mx-auto"
                 onClick={() => setIsOpen(true)}
             />
@@ -19,6 +19,7 @@ export default function GalleryImage( props ) {
                 setIsOpen={setIsOpen}
                 srcFull={props.full}
                 srcCaption={props.caption}
+                srcAlt={props.alt}
             />
         </div>
     )
