@@ -21,7 +21,7 @@ export default function Commissions() {
                 <section>
                     <Disclosure
                         as="div"
-                        className="mx-2 rounded p-2"
+                        className="mx-1 rounded p-2"
                     >
                         <Disclosure.Button className="w-full text-left rounded flex items-center bg-indigo-100 px-4 py-2 shadow-md">
                             <p className="align-middle text-lg">Portraits</p>
@@ -36,7 +36,7 @@ export default function Commissions() {
                             leaveTo="transform -translate-y-4 opacity-0"
                         >
                             <Disclosure.Panel>
-                                <ul className="m-4">
+                                <ul className="m-2">
                                     <li>Lineart  (0.5 hr-1 hr) - $25</li>
                                     <li>Flat color (1 hr-1.5 hr) - $40</li>
                                     <li>Cel shaded (1.75 hr-2 hr) - $55</li>
@@ -48,7 +48,7 @@ export default function Commissions() {
                     </Disclosure>
                     <Disclosure
                         as="div"
-                        className="mx-2 rounded p-2"
+                        className="mx-1 rounded p-2"
                     >
                         <Disclosure.Button className="w-full text-left rounded flex items-center bg-indigo-100 px-4 py-2 shadow-md">
                             <p className="align-middle text-lg">Bust</p>
@@ -63,7 +63,7 @@ export default function Commissions() {
                             leaveTo="transform -translate-y-4 opacity-0"
                         >
                             <Disclosure.Panel>
-                                <ul className="m-4">
+                                <ul className="m-2">
                                     <li>Lineart (2.5 hrs-3 hrs) - $75</li>
                                     <li>Flat Color (3.5 hrs-4 hrs) - $110</li>
                                     <li>Cel Shaded (4 hrs-4.75 hrs) - $125</li>
@@ -74,7 +74,7 @@ export default function Commissions() {
                     </Disclosure>
                     <Disclosure
                         as="div"
-                        className="mx-2 rounded p-2"
+                        className="mx-1 rounded p-2"
                     >
                         <Disclosure.Button className="w-full text-left rounded flex items-center bg-indigo-100 px-4 py-2 shadow-md">
                             <p className="align-middle text-lg">Full</p>
@@ -89,7 +89,7 @@ export default function Commissions() {
                             leaveTo="transform -translate-y-4 opacity-0"
                         >
                             <Disclosure.Panel>
-                                <ul className="m-4">
+                                <ul className="m-2">
                                     <li>Lineart (3.5-4 hrs) - $110</li>
                                     <li>Flat Color (4.5-5 hrs) - $140</li>
                                     <li>Cel Shaded (5.5-6 hrs) - $165</li>
