@@ -6,10 +6,10 @@ import three_thumb from "./thumbs/3.jpg"
 import three_full from "./fulls/3.png"
 import four_thumb from "./thumbs/4.jpg"
 import four_full from "./fulls/4.png"
-import five_thumb from "./thumbs/5.jpg"
-import five_full from "./fulls/5.png"
-import six_thumb from "./thumbs/6.jpg"
-import six_full from "./fulls/6.png"
+// import five_thumb from "./thumbs/5.jpg"
+// import five_full from "./fulls/5.png"
+// import six_thumb from "./thumbs/6.jpg"
+// import six_full from "./fulls/6.png"
 import seven_thumb from "./thumbs/7.jpg"
 import seven_full from "./fulls/7.jpg"
 import eight_thumb from "./thumbs/8.jpg"
@@ -55,20 +55,20 @@ const misc_art = [
         id: "4",
         caption: "Icon, 2021"
     },
-    {
-        thumb: five_thumb,
-        full: five_full,
-        alt: "Icon of two humanoid robots conversing with binary in their speech bubbles",
-        id: "5",
-        caption: "Icon, 2021"
-    },
-    {
-        thumb: six_thumb,
-        full: six_full,
-        alt: "Icon of a wooden chest with a padlock",
-        id: "6",
-        caption: "Icon, 2021"
-    },
+    // {
+    //     thumb: five_thumb,
+    //     full: five_full,
+    //     alt: "Icon of two humanoid robots conversing with binary in their speech bubbles",
+    //     id: "5",
+    //     caption: "Icon, 2021"
+    // },
+    // {
+    //     thumb: six_thumb,
+    //     full: six_full,
+    //     alt: "Icon of a wooden chest with a padlock",
+    //     id: "6",
+    //     caption: "Icon, 2021"
+    // },
     {
         thumb: seven_thumb,
         full: seven_full,
