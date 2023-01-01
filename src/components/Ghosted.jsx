@@ -202,7 +202,7 @@ export default function Ghosted() {
                 <section className="my-2">
                     <h2 className="uppercase bg-slate-800 italic text-white text-shadow-noblur shadow-pink-700/50 font-title font-light tracking-wider text-3xl p-4 my-4 rounded-lg">Character Sprite Design</h2>
                     <div className="flex flex-col my-4 md:flex-row md:h-min gap-6 2xl:mx-4">
-                        <div className="leading-relaxed md:w-2/3">
+                        <div className="leading-relaxed">
                             <p>Concept design sketches provided by Taru Tillman were translated into overworld sprites that fit the design rules laid out at the beginning of game development.</p>
                         </div>
                     </div>
