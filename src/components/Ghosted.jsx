@@ -132,7 +132,6 @@ export default function Ghosted() {
                                     className="self-center max-h-[200px]"
                                 />
                             </a>
-                            <p className="text-sm text-center">Blank floorplan of the homebase/house of the Martinez family.</p>
                         </div>
                     </div>
                 </section>
