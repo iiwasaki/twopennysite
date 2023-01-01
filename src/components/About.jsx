@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-
+import { LazyLoadImage } from "react-lazy-load-image-component"
+import logo from "../assets/about/twopennylogo.png"
 
 export default function About() {
     return (
@@ -13,10 +14,16 @@ export default function About() {
             </div>
 
             {/* Right section */}
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 flex flex-col gap-10 items-center">
+            <LazyLoadImage
+                    src={logo}
+                    alt="TwoPennyDoodle logo"
+                    className="h-[150px]"
+                />
                 <p className="leading-relaxed text-lg">
                     Howdy! I’m TwoPenny, a digital artist in the Pacific Northwest of the United States. While not formally trained, I have worked for almost a decade on various art projects, commissions, and personal projects. Much of my professional work has been in character commissions for Dungeons and Dragons, RWBY, and World of Warcraft, but I have also worked extensively in video game asset design, creation, and animation on my own time. If you have a bigger project (especially for video game art), please feel free to <Link to="/contact" className="font-bold text-indigo-700">reach out</Link>! I’m always excited to talk shop and gauge if my work is a good fit for your vision!
                 </p>
+                
             </div>
         </main>
     )
