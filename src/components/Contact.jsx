@@ -1,6 +1,4 @@
-import about_pic from "../assets/about/temp.jpg"
-import { LazyLoadImage } from "react-lazy-load-image-component"
-
+import {EnvelopeIcon, CameraIcon} from "@heroicons/react/24/solid" 
 
 export default function Contact() {
     return (
@@ -14,10 +12,13 @@ export default function Contact() {
             </div>
 
             {/* Right section */}
-            <div className="md:w-1/2">
-                <p className="leading-relaxed text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae mi non odio dignissim feugiat in quis metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum at magna ornare, facilisis elit ac, dignissim dolor. Sed rutrum diam ac felis posuere accumsan. Suspendisse enim eros, efficitur eu nisi ut, dapibus porttitor sapien. Aliquam porttitor neque in odio iaculis, ornare tristique mi scelerisque. Nunc dignissim lacus justo. Nullam sit amet mauris quis dui auctor faucibus mollis quis sapien. Etiam feugiat dui id aliquam viverra. In faucibus at eros vitae malesuada. Ut malesuada erat id est placerat, nec faucibus enim elementum. Nullam ac ultrices lorem, eu bibendum velit. Integer vel lectus interdum, tempor eros eu, porttitor odio. Praesent at feugiat neque. Quisque a tempor ante.
-                </p>
+            <div className="align-baseline md:w-1/2">
+                <a className="leading-relaxed text-lg my-6 block" href="mailto:twopennydoodle@gmail.com">
+                    <EnvelopeIcon className="h-8 inline-block align-middle"/> twopennydoodle(at)gmail.com
+                </a>
+                <a className="leading-relaxed text-lg my-6 block" href="https://instagram.com/twopennydoodle">
+                    <CameraIcon className="h-8 inline-block align-bottom"/> TwoPennyDoodle on Instagram
+                </a>
             </div>
         </main>
     )

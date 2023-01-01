@@ -35,7 +35,7 @@ export default function Home() {
                             gridPosition="md:row-start-1"
                             alt="Drawing of the Portraits of the Rim logo: a woman with red hair and a wide brim hat holding a spray can."
                             heading="PORTRAITS OF THE RIM"
-                            subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
+                            subheading="A comprehensive portrait generation mod for the game RimWorld. Bring your pawns to life; I'm sure nothing bad will happen to them in the Rim."
                         />
                         <Feature
                             url={characters}
@@ -43,7 +43,7 @@ export default function Home() {
                             gridPosition="md:row-start-2"
                             alt="Drawing of a girl in a dress standing in front of an Eldritch horror."
                             heading="CHARACTERS"
-                            subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
+                            subheading="Commissions, original characters, and references for my DM so they know exactly how to break my heart."
                         />
                         <Feature
                             url={ghosted}
@@ -51,7 +51,7 @@ export default function Home() {
                             gridPosition="md:row-start-3"
                             alt="Drawing of an empty attic. "
                             heading="GHOSTED"
-                            subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
+                            subheading="An isometric, lofi-style puzzle game about a ghost named Guin."
                         />
                         <Feature
                             url={misc}
@@ -59,7 +59,7 @@ export default function Home() {
                             gridPosition="md:row-start-4"
                             alt="Drawing of several small logos for a farm."
                             heading="MISC"
-                            subheading="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At lectus urna duis convallis convallis tellus id. Hendrerit gravida rutrum quisque non tellus."
+                            subheading="Logos, posters, and icons, oh my!"
                         />
                     </div>
                 </div>
