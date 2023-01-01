@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 /* Image assets */
 import ghosted_banner from "../assets/banner/ghosted.jpg"
 import guin_rules from "../assets/ghosted/animation_rules.jpg"
-import floorplan from "../assets/ghosted/comp_ref.png"
+import floorplan from "../assets/ghosted/compref.png"
 import prop1 from "../assets/ghosted/prop1.png"
 import prop2 from "../assets/ghosted/prop2.png"
 import prop3 from "../assets/ghosted/prop3.png"
