@@ -35,7 +35,7 @@ export default function Home() {
                             gridPosition="md:row-start-1"
                             alt="Drawing of the Portraits of the Rim logo: a woman with red hair and a wide brim hat holding a spray can."
                             heading="PORTRAITS OF THE RIM"
-                            subheading="A comprehensive portrait generation mod for the game RimWorld. Bring your pawns to life; I'm sure nothing bad will happen to them in the Rim."
+                            subheading="A portrait generation mod for RimWorld."
                         />
                         <Feature
                             url={characters}
@@ -43,7 +43,7 @@ export default function Home() {
                             gridPosition="md:row-start-2"
                             alt="Drawing of a girl in a dress standing in front of an Eldritch horror."
                             heading="CHARACTERS"
-                            subheading="Commissions, original characters, and references for my DM so they know exactly how to break my heart."
+                            subheading="Commissions and original characters."
                         />
                         <Feature
                             url={ghosted}
@@ -59,7 +59,7 @@ export default function Home() {
                             gridPosition="md:row-start-4"
                             alt="Drawing of several small logos for a farm."
                             heading="MISC"
-                            subheading="Logos, posters, and icons, oh my!"
+                            subheading="Logos, posters, and other works."
                         />
                     </div>
                 </div>
