@@ -13,6 +13,7 @@ import twelve from "./carousel/twelve.jpg"
 import thirteen from "./carousel/thirteen.jpg"
 import fourteen from "./carousel/fourteen.jpg"
 import fifteen from "./carousel/fifteen.jpg"
+import sixteen from "./carousel/sixteen.jpg"
 
 const carousel_chars = [
     {
@@ -103,6 +104,12 @@ const carousel_chars = [
         full: fifteen,
         alt: "Drawing of a woman holding a large bloodied scythe looking at a bloodied handkerchief on the ground",
         caption: "Full body, flat color, no background (2019)",
+        id: "15"
+    },
+    {
+        full: sixteen,
+        alt: "Drawing of a snow leopard woman drawing on a digital tablet.",
+        caption: "Full body, full render, no background (2023)",
         id: "15"
     },
 ]
