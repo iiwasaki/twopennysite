@@ -16,7 +16,7 @@ export default function Commissions() {
             {/* Right section */}
             <div className="md:w-1/2 text-medium leading-relaxed">
                 <p className="">
-                    In an effort of transparency, my rate is roughly $27.50 an hour. For all commission work, after the initial email and discussion of scope, a price estimate will be provided. Half of the commission will be paid prior to the initial sketch, and once the sketch is completed and it meets what you’re looking for, I’ll send you the invoice for the second half. Once I get that, I’ll get going with the rest of the work. With this in mind, expected hours required and pricing for character commissions start at:
+                For all commission work, after the initial email and discussion of scope, a price estimate will be provided. Half of the commission will be paid prior to the initial sketch, and once the sketch is completed and it meets what you’re looking for, I’ll send you the invoice for the second half. Once I get that, I’ll get going with the rest of the work. Pricing for character commissions start at:
                 </p>
                 <section>
                     <Disclosure
@@ -37,10 +37,10 @@ export default function Commissions() {
                         >
                             <Disclosure.Panel>
                                 <ul className="m-2">
-                                    <li>Lineart  (0.5 hr-1 hr) - $25</li>
-                                    <li>Flat color (1 hr-1.5 hr) - $40</li>
-                                    <li>Cel shaded (1.75 hr-2 hr) - $55</li>
-                                    <li>Full render (2 hr-2.75 hr) - $70</li>
+                                    <li>Lineart - $20</li>
+                                    <li>Flat color - $30</li>
+                                    <li>Cel shaded - $40</li>
+                                    <li>Full render - $50</li>
                                 </ul>
                             </Disclosure.Panel>
                         </Transition>
@@ -64,10 +64,10 @@ export default function Commissions() {
                         >
                             <Disclosure.Panel>
                                 <ul className="m-2">
-                                    <li>Lineart (2.5 hrs-3 hrs) - $75</li>
-                                    <li>Flat Color (3.5 hrs-4 hrs) - $110</li>
-                                    <li>Cel Shaded (4 hrs-4.75 hrs) - $125</li>
-                                    <li>Full Render (4.75-5.5hrs) - $140</li>
+                                    <li>Lineart - $60</li>
+                                    <li>Flat Color - $80</li>
+                                    <li>Cel Shaded - $100</li>
+                                    <li>Full Render - $120</li>
                                 </ul>
                             </Disclosure.Panel>
                         </Transition>
@@ -90,10 +90,10 @@ export default function Commissions() {
                         >
                             <Disclosure.Panel>
                                 <ul className="m-2">
-                                    <li>Lineart (3.5-4 hrs) - $110</li>
-                                    <li>Flat Color (4.5-5 hrs) - $140</li>
-                                    <li>Cel Shaded (5.5-6 hrs) - $165</li>
-                                    <li>Full Render (7-8 hrs) - $200</li>
+                                    <li>Lineart - $80</li>
+                                    <li>Flat Color - $100</li>
+                                    <li>Cel Shaded - $120</li>
+                                    <li>Full Render - $150</li>
                                 </ul>
                             </Disclosure.Panel>
                         </Transition>
