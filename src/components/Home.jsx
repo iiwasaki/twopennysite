@@ -3,8 +3,9 @@ import { Link } from "react-router-dom"
 import portraits from "../assets/front/portraits.jpg"
 import characters from "../assets/front/characters.jpg"
 import ghosted from "../assets/front/ghosted.jpg"
-import misc from "../assets/front/misc.jpg"
-import temp from "../assets/chars/fulls/full1.jpg"
+import animations from "../assets/front/anims.jpg"
+import temp from "../assets/chars/carousel/eleven.jpg"
+import de from "../assets/front/de.jpg"
 
 export default function Home() {
     return (
@@ -22,7 +23,7 @@ export default function Home() {
                         <h4 className="p-2 md:p-6"><Link to="/about">about</Link></h4>
                         <h4 className="p-2 md:p-6"><Link to="/commissions">commissions</Link></h4>
                         <h4 className="p-2 md:p-6"><Link to="/contact">contact</Link></h4>
-                        <img src={temp} className="hidden"/>
+                        <img src={temp} className="hidden" />
                     </div>
                 </header>
 
@@ -30,36 +31,44 @@ export default function Home() {
                 <div className="md:w-1/2">
                     <div className="flex flex-col divide-y-2 md:justify-evenly md:min-h-screen divide-pink-600/40">
                         <Feature
+                            url={de}
+                            link="/darkemblem"
+                            gridPosition="md:row-start-1"
+                            alt="Still image of a flower on a cliffside overlooking a large manor with lightning in the background."
+                            heading="DARK EMBLEM"
+                            subheading="A dark fantasy tactical RPG"
+                        />
+                        <Feature
                             url={portraits}
                             link="/portraits"
-                            gridPosition="md:row-start-1"
+                            gridPosition="md:row-start-2"
                             alt="Drawing of the Portraits of the Rim logo: a woman with red hair and a wide brim hat holding a spray can."
                             heading="PORTRAITS OF THE RIM"
                             subheading="A portrait generation mod for RimWorld."
                         />
                         <Feature
-                            url={characters}
-                            link="/characters"
-                            gridPosition="md:row-start-2"
-                            alt="Drawing of a girl in a dress standing in front of an Eldritch horror."
-                            heading="CHARACTERS"
-                            subheading="Commissions and original characters."
-                        />
-                        <Feature
                             url={ghosted}
                             link="/ghosted"
-                            gridPosition="md:row-start-3"
+                            gridPosition="md:row-start-4"
                             alt="Drawing of an empty attic. "
                             heading="GHOSTED"
                             subheading="An isometric, lofi-style puzzle game about a ghost named Guin."
                         />
                         <Feature
-                            url={misc}
-                            link="/misc"
-                            gridPosition="md:row-start-4"
-                            alt="Drawing of several small logos for a farm."
-                            heading="MISC"
-                            subheading="Logos, posters, and other works."
+                            url={characters}
+                            link="/characters"
+                            gridPosition="md:row-start-3"
+                            alt="Drawing of a girl in a dress standing in front of an Eldritch horror."
+                            heading="CHARACTERS"
+                            subheading="Commissions and original characters."
+                        />
+                        <Feature
+                            url={animations}
+                            link="/animations"
+                            gridPosition="md:row-start-5"
+                            alt="Storyboard of an animation loop for a ghost sprite in a video game"
+                            heading="ANIMATIONS"
+                            subheading="Video game animations and sprites"
                         />
                     </div>
                 </div>

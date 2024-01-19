@@ -17,8 +17,9 @@ import About from './components/About'
 import Portraits from './components/Portraits'
 import Characters from './components/Characters'
 import Ghosted from './components/Ghosted'
-import Misc from './components/Misc'
 import Commissions from "./components/Commissions"
+import DarkEmblem from "./components/DarkEmblem"
+import Animations from "./components/Animations"
 
 
 const router = createBrowserRouter(
@@ -65,8 +66,13 @@ const router = createBrowserRouter(
         >
         </Route>
         <Route
-          path="misc"
-          element={<Misc/>}
+          path="darkemblem"
+          element={<DarkEmblem/>}
+        >
+        </Route>
+        <Route
+          path="animations"
+          element={<Animations/>}
         >
         </Route>
       </Route> {/* End Main Root */}

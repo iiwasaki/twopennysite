@@ -17,6 +17,9 @@ export default function Portraits() {
                 title="Portraits of the Rim"
             />
             <main className="mx-8 my-4 leading-relaxed 2xl:mx-0 md:text-lg">
+            <div className="flex flex-col gap-6 md:flex-row 2xl:mx-4">
+                        <p className="leading-relaxed">Download Portraits of the Rim through the <a className="font-bold text-indigo-700" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2937991425" target="_blank">Steam Workshop here</a>!</p>
+                    </div>
                 <section className="my-2">
                     <h2 className="uppercase bg-slate-800 italic text-white text-shadow-noblur shadow-pink-700/50 font-title font-light tracking-wider text-3xl p-4 my-4 rounded-lg">Overview of the Game</h2>
                     <div className="flex flex-col gap-6 md:flex-row 2xl:mx-4">
@@ -62,7 +65,7 @@ export default function Portraits() {
                 <section className="my-2">
                     <h2 className="uppercase bg-slate-800 italic text-white text-shadow-noblur shadow-pink-700/50 font-title font-light tracking-wider text-3xl p-4 my-4 rounded-lg"> Release </h2>
                     <div className="flex flex-col md:flex-row gap-6 2xl:mx-4">
-                        <p className="md:w-2/3">Portraits of the Rim is planned to be released in early 2023 with the help of Oskar Potocki, a graphic designer and leader of the Vanilla Expanded series, and Taranchuk, a programmer well-known in the Rimworld modding community for his work. Oskar has provided coordination with Taranchuk, continual feedback, advice, as well as very appreciated words of encouragement. Taranchuk programmed the framework for the mod within Rimworld. By time of release, Portraits of the Rim will have well over 1000 unique assets pulling from Rimworld itself and the Vanilla Expanded mod series.</p>
+                        <p className="md:w-2/3">Portraits of the Rim was released in February 2023 with over 4,500 unique textures. As of January 2024, it has gained over 19,000 current subscribers with almost 1,200 positive ratings on Steam alone. Since its release, an additional 2,000 textures have been created and implemented. </p>
                         <div className="flex flex-col items-center md:w-1/3">
                             <LazyLoadImage
                                 src={demo_gif}
@@ -71,6 +74,12 @@ export default function Portraits() {
                             />
                             <p className="text-sm text-center"> Sample faces possible with Portraits of the Rim</p>
                         </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-6 2xl:mx-4">
+                        <p>Portraits of the Rim was made with the support of Oskar Potocki, a graphic designer and leader of the Vanilla Expanded series, and Taranchuk, a programmer well-known in the Rimworld modding community for his work. Ishin Iwasaki has provided maintenance and updates to the coding framework of Portraits of the Rim since its release.</p>
+                    </div>
+                    <div className="flex flex-col md:flex-row gap-6 my-4 2xl:mx-4">
+                        <p>Portraits of the Rim can be downloaded through the Steam workshop by <a className="font-bold text-indigo-700" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2937991425" target="_blank">clicking here!</a></p>
                     </div>
                 </section>
                 <section>

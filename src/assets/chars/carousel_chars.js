@@ -14,6 +14,14 @@ import thirteen from "./carousel/thirteen.jpg"
 import fourteen from "./carousel/fourteen.jpg"
 import fifteen from "./carousel/fifteen.jpg"
 import sixteen from "./carousel/sixteen.jpg"
+import seventeen from "./carousel/seventeen.jpg"
+import eighteen from "./carousel/eighteen.jpg"
+import nineteen from "./carousel/nineteen.jpg"
+import twenty from "./carousel/twenty.jpg"
+import twentyone from "./carousel/twentyone.jpg"
+import twentytwo from "./carousel/twentytwo.jpg"
+import twentythree from "./carousel/twentythree.jpg"
+import twentyfour from "./carousel/twentyfour.jpg"
 
 const carousel_chars = [
     {
@@ -24,8 +32,8 @@ const carousel_chars = [
     },
     {
         full: two,
-        alt: "Drawing of a woman facing and holding the head of a beast-like creature",
-        caption: "Two busts, flat color, no background (2020)",
+        alt: "Drawing of a girl in a yellow dress holding her hand out to an Eldritch horror",
+        caption: "Two full bodies, fully rendered, background (2020)",
         id: "2"
     },
     {
@@ -54,14 +62,14 @@ const carousel_chars = [
     },
     {
         full: seven,
-        alt: "Drawing of a teenage boy posting triumphantly over a cardboard box",
-        caption: "Full body, fully rendered, no background (2020)",
+        alt: "Drawing of a woman in blue holding a dagger",
+        caption: "Full body, cel shaded, no background (2022)",
         id: "7"
     },
     {
         full: eight,
-        alt: "Drawing of a man with gray skin and long feathered tail holding a book",
-        caption: "Full body, cel shaded, no background (2019)",
+        alt: "Drawing of a woman holding a scythe crying after a sign of battle",
+        caption: "Full body, cel shaded, background (2019)",
         id: "8"
     },
     {
@@ -72,14 +80,14 @@ const carousel_chars = [
     },
     {
         full: ten,
-        alt: "Drawing of a teenage male ranger with an arrow nocked on a drawn bow",
-        caption: "Full body, cel shaded, no background (2019)",
+        alt: "Drawing of a poster titled 'Lawyers, Guns, and Money' with three adventurers",
+        caption: "Commission, three full body, one bust, cel shaded, background (2019)",
         id: "10"
     },
     {
         full: eleven,
-        alt: "Drawing of a male Elven rogue",
-        caption: "Full body, cel shaded, no background (2019)",
+        alt: "Drawing of a woman facing and holding the head of a beast-like creature",
+        caption: "Two busts, flat color, no background (2020)",
         id: "11"
     },
     {
@@ -90,8 +98,8 @@ const carousel_chars = [
     },
     {
         full: thirteen,
-        alt: "Drawing of a woman with horns and a guitar-axe with a spectral being coming out from behind her",
-        caption: "Full body, flat color, no background (2020)",
+        alt: "Drawing of three adventurers at a tavern enjoying a meal",
+        caption: "Commission, three bust, cel shaded, background (2018)",
         id: "13"
     },
     {
@@ -110,7 +118,55 @@ const carousel_chars = [
         full: sixteen,
         alt: "Drawing of a snow leopard woman drawing on a digital tablet.",
         caption: "Full body, full render, no background (2023)",
-        id: "15"
+        id: "16"
+    },
+    {
+        full: seventeen,
+        alt: "Drawing of a horned male sitting on a luxurious couch",
+        caption: "Full body, cel shaded, background (2024)",
+        id: "17"
+    },
+    {
+        full: eighteen,
+        alt: "Drawing of two advisors in royal clothing and one sheepish soldier",
+        caption: "Full body, flat, no background (2023)",
+        id: "18"
+    },
+    {
+        full: nineteen,
+        alt: "Drawing of two adventurers around a campfire with a cat",
+        caption: "Full body, cel shaded, background (2023)",
+        id: "19"
+    },
+    {
+        full: twenty,
+        alt: "Drawing of a man in an orange jacket and futuristic tech glasses",
+        caption: "Half body, cel shaded, no background (2023)",
+        id: "20"
+    },
+    {
+        full: twentyone,
+        alt: "Drawing of a pink aquatic humanoid with yellow hair",
+        caption: "Half body, full color, no background (2023)",
+        id: "21"
+    },
+    {
+        full: twentytwo,
+        alt: "Drawing of a portrait of a humanoid with beastly claw nails drinking a pink juice",
+        caption: "Portrait, cel shaded, no background (2023)",
+        id: "22"
+    },
+    {
+        full: twentythree,
+        alt: "Drawing of two space colonists looking up at a dark sky",
+        caption: "Half body, cel shaded, background (2023)",
+        id: "23"
+    },
+    {
+        full: twentyfour,
+        alt: "Drawing of a tall orcish woman in a baseball jersey with a battleaxe",
+        caption: "Full body, full render, no background (2020)",
+        id: "24"
     },
 ]
 

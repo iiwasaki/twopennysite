@@ -31,10 +31,11 @@ export default function Navbar() {
                         <Popover.Button as={Link} to="/about" className="py-3">about</Popover.Button>
                         <Popover.Button as={Link} to="/commissions" className="py-3">commissions</Popover.Button>
                         <Popover.Button as={Link} to="/contact" className="py-3">contact</Popover.Button>
+                        <Popover.Button as={Link} to="/darkemblem" className="py-3">dark emblem</Popover.Button>
                         <Popover.Button as={Link} to="/portraits" className="py-3">portraits of the rim</Popover.Button>
                         <Popover.Button as={Link} to="/characters" className="py-3">characters</Popover.Button>
                         <Popover.Button as={Link} to="/ghosted" className="py-3">ghosted</Popover.Button>
-                        <Popover.Button as={Link} to="/misc" className="py-3">misc</Popover.Button>
+                        <Popover.Button as={Link} to="/animations" className="py-3">animations</Popover.Button>
                     </div>
                 </Popover.Panel>
             </Transition>
@@ -42,10 +43,11 @@ export default function Navbar() {
                 <Link to="/about" className="bg-slate-800  rounded-sm px-4 py-1 text-white ">about</Link>
                 <Link to="/commissions" className="bg-slate-800 rounded-sm px-4 py-1 text-white">commissions</Link>
                 <Link to="/contact" className="bg-slate-800 px-4 py-1 text-white">contact</Link>
+                <Link to="/darkemblem" className="bg-slate-800 px-4 py-1 text-white">dark emblem</Link>
                 <Link to="/portraits" className="bg-slate-800 px-4 py-1 text-white">portraits</Link>
                 <Link to="/characters" className="bg-slate-800 px-4 py-1 text-white">characters</Link>
                 <Link to="/ghosted" className="bg-slate-800 px-4 py-1 text-white">ghosted</Link>
-                <Link to="/misc" className="bg-slate-800 px-4 py-1 text-white">misc</Link>
+                <Link to="/animations" className="bg-slate-800 px-4 py-1 text-white">animations</Link>
             </div>
         </Popover>
     )
